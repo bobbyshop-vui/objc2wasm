@@ -2,7 +2,7 @@ from openai import OpenAI
 import subprocess
 
 # Cấu hình API Key
-API_KEY = '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'  # Thay bằng API Key thực tế của bạn
+API_KEY = 'your-api-chatgpt'  # Thay bằng API Key thực tế của bạn
 
 # Tạo client OpenAI
 client = OpenAI(api_key=API_KEY)
